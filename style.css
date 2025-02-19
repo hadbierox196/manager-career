@@ -1,0 +1,56 @@
+/* style.css */
+body {
+  background-color: black;
+  color: yellow;
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: yellow;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Orbitron', sans-serif;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+#careerGrid {
+  margin-top: 20px;
+}
+
+.yearRow {
+  border: 2px solid yellow;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 1rem;
+  text-align: left;
+}
+
+#results {
+  margin-top: 20px;
+  font-size: 1rem;
+  text-align: left;
+}
